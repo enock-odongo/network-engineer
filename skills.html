@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Enock Odongo</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+    <!-- Navbar (same as index.html) -->
+    <nav class="bg-blue-900 text-white fixed w-full top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">Enock Odongo</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-blue-300 transition">Home</a>
+                <a href="skills.html" class="hover:text-blue-300 transition">Skills</a>
+                <a href="projects.html" class="hover:text-blue-300 transition">Projects</a>
+                <a href="about.html" class="hover:text-blue-300 transition">About</a>
+                <a href="contact.html" class="hover:text-blue-300 transition">Contact</a>
+                <a href="portfolio.html" class="hover:text-blue-300 transition">Portfolio</a>
+                <a href="support.html" class="hover:text-blue-300 transition">Support</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="focus outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-900 text-white">
+            <a href="index.html" class="block px-4 py-2 hover:bg-blue-800">Home</a>
+            <a href="skills.html" class="block px-4 py-2 hover:bg-blue-800">Skills</a>
+            <a href="projects.html" class="block px-4 py-2 hover:bg-blue-800">Projects</a>
+            <a href="about.html" class="block px-4 py-2 hover:bg-blue-800">About</a>
+            <a href="contact.html" class="block px-4 py-2 hover:bg-blue-800">Contact</a>
+            <a href="portfolio.html" class="block px-4 py-2 hover:bg-blue-800">Portfolio</a>
+            <a href="support.html" class="block px-4 py-2 hover:bg-blue-800">Support</a>
+        </div>
+    </nav>
+
+    <!-- Skills Section -->
+    <section class="min-h-screen pt-20 pb-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 animate__animated animate__fadeIn">My Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+                    <h3 class="text-xl font-semibold mb-4">Network Design & Development</h3>
+                    <p>Expertise in designing scalable and robust network architectures using tools like Cisco Packet Tracer, GNS3, and Wireshark.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+                    <h3 class="text-xl font-semibold mb-4">Network Security</h3>
+                    <p>Proficient in implementing firewalls, VPNs, and intrusion detection systems to secure network infrastructures.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+                    <h3 class="text-xl font-semibold mb-4">Device Hardening</h3>
+                    <p>Skilled in configuring and securing network devices to prevent unauthorized access and ensure compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Enock Odongo</h3>
+                    <p>Professional Network Engineer specializing in network design, security, and device hardening.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-300 transition">Home</a></li>
+                        <li><a href="skills.html" class="hover:text-blue-300 transition">Skills</a></li>
+                        <li><a href="projects.html" class="hover:text-blue-300 transition">Projects</a></li>
+                        <li><a href="about.html" class="hover:text-blue-300 transition">About</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-300 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <p>Email: enock@example.com</p>
+                    <p>Phone: +254 123 456 789</p>
+                    <p>Address: Nairobi, Kenya</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Me</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-blue-300"><i class="fab fa-linkedin text-2xl"></i></a>
+                        <a href="#" class="hover:text-blue-300"><i class="fab fa-twitter text-2xl"></i></a>
+                        <a href="#" class="hover:text-blue-300"><i class="fab fa-github text-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <p>&copy; 2025 Enock Odongo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
